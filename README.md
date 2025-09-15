@@ -158,3 +158,22 @@ Includes:
 ✔️ **Secure, production-ready** setup
 
 ***
+
+
+
+
+
+
+
+
+
+
+
+| Step | Guide |
+|------|-------|
+| 1️⃣ Server & Security Setup | [`01-server-setup.md`](01-server-setup.md) |
+| 2️⃣ Keycloak SSO Configuration | [`02-keycloak.md`](02-keycloak.md) |
+| 3️⃣ Drupal 10 Deployment + SSO | [`03-drupal-keycloak.md`](03-drupal-keycloak.md) |
+| 4️⃣ Django Deployment + SSO | [`04-django-keycloak.md`](04-django-keycloak.md) |
+| 5️⃣ PHP App Deployment + SSO | [`05-php-keycloak.md`](05-php-keycloak.md) |
+| 6️⃣ Screenshots & Proofs | [`06-screenshots.md`](06-screenshots.md) |
