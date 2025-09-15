@@ -1,6 +1,3 @@
-Here’s your updated `03-drupal-keycloak.md`, now **including a section for SSL/TLS certification** alongside all core steps and embedded screenshots. This ensures security and evaluator clarity.
-
-***
 
 # 3️⃣ Drupal 10 Deployment & Keycloak SSO Integration
 
@@ -156,3 +153,4 @@ Continue to:
 [04-django-keycloak.md](./04-django-keycloak.md) — Django Deployment & Keycloak SSO Integration
 
 ***
+
