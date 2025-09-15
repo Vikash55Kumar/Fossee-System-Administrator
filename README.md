@@ -1,4 +1,4 @@
-# 🌐 FOSSEE System System Administrator
+# 🌐 FOSSEE System Administrator
 
 A production-ready setup for **Single Sign-On (SSO)** across multiple applications, powered by **Keycloak** on a secure **Rocky Linux 10** droplet.  
 This project integrates **Drupal 10**, **Django**, and a **custom PHP app** with centralized identity management using **OpenID Connect**.
