@@ -1,6 +1,3 @@
-Here is the updated and optimized code for your `02-keycloak.md` file with improved formatting and screenshot embedding for GitHub markdown:
-
-***
 
 # 2️⃣ Keycloak SSO Server Installation & Configuration
 
@@ -103,5 +100,3 @@ Proceed to:
 [03-drupal-keycloak.md](./03-drupal-keycloak.md) — Drupal 10 Deployment & Keycloak Integration
 
 ***
-
-This markdown ensures your Keycloak configuration is thoroughly documented with clear, evaluator-friendly screenshots and concise but complete instructions.
