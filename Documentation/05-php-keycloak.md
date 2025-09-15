@@ -141,17 +141,28 @@ echo "<p>Email: " . htmlspecialchars($user->email) . "</p>";
 
 ## 📸 5.7 Screenshots
 
-- **PHP App SSO Login page:**  
-<img width="1082" height="594" alt="p1" src="https://github.com/user-attachments/assets/7e8f9253-ce3d-4136-afa4-c1ae354ee563" />
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/7e8f9253-ce3d-4136-afa4-c1ae354ee563" alt="p1" width="500"/></td>
+    <td><img src="https://github.com/user-attachments/assets/2d9914f3-f8a3-4f4f-914e-84e894fa5231" alt="p2" width="500"/></td>
+  </tr>
+  <tr>
+    <td align="center">PHP App SSO Login page</td>
+    <td align="center">Keycloak login screen for SSO</td>
+  </tr>
+</table>
 
-- **Keycloak login screen for SSO:**  
-<img width="940" height="730" alt="p2" src="https://github.com/user-attachments/assets/2d9914f3-f8a3-4f4f-914e-84e894fa5231" />
 
-- **Post-login user profile page:**  
-<img width="844" height="782" alt="p3" src="https://github.com/user-attachments/assets/578ffec4-477a-49c0-b7e0-bd9ceb616b13" />
-
-- **Keycloak logout screen:**  
-<img width="954" height="612" alt="p4" src="https://github.com/user-attachments/assets/0dcdee7e-82bb-4c14-bbde-f557cd3d618e" />
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/578ffec4-477a-49c0-b7e0-bd9ceb616b13" alt="p3" width="500"/></td>
+    <td><img src="https://github.com/user-attachments/assets/0dcdee7e-82bb-4c14-bbde-f557cd3d618e" alt="p4" width="500"/></td>
+  </tr>
+  <tr>
+    <td align="center">Post-login user profile page</td>
+    <td align="center">Keycloak logout screen</td>
+  </tr>
+</table>
 
 ***
 
@@ -170,3 +181,4 @@ Continue to:
 [06-screenshots.md](./06-screenshots.md) — Full Screenshots & Project Proofs
 
 ***
+
