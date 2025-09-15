@@ -152,7 +152,6 @@ echo "<p>Email: " . htmlspecialchars($user->email) . "</p>";
   </tr>
 </table>
 
-
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/578ffec4-477a-49c0-b7e0-bd9ceb616b13" alt="p3" width="500"/></td>
@@ -163,6 +162,8 @@ echo "<p>Email: " . htmlspecialchars($user->email) . "</p>";
     <td align="center">Keycloak logout screen</td>
   </tr>
 </table>
+
+<img width="2470" height="1372" alt="php" src="https://github.com/user-attachments/assets/d84628d4-901f-4c87-8d6b-92a4522e91af" />
 
 ***
 
@@ -181,4 +182,5 @@ Continue to:
 [06-screenshots.md](./06-screenshots.md) — Full Screenshots & Project Proofs
 
 ***
+
 
