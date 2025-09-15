@@ -71,12 +71,12 @@ This setup ensures **secure, seamless authentication** for users across all inte
 
 | Step | Guide |
 |------|-------|
-| 1️⃣ Server & Security Setup | [`01-server-setup.md`](01-server-setup.md) |
-| 2️⃣ Keycloak SSO Configuration | [`02-keycloak.md`](02-keycloak.md) |
-| 3️⃣ Drupal 10 Deployment + SSO | [`03-drupal-keycloak.md`](03-drupal-keycloak.md) |
-| 4️⃣ Django Deployment + SSO | [`04-django-keycloak.md`](04-django-keycloak.md) |
-| 5️⃣ PHP App Deployment + SSO | [`05-php-keycloak.md`](05-php-keycloak.md) |
-| 6️⃣ Screenshots & Proofs | [`06-screenshots.md`](06-screenshots.md) |
+| 1️⃣ Server & Security Setup | [`01-server-setup.md`](Documentation/01-server-setup.md) |
+| 2️⃣ Keycloak SSO Configuration | [`02-keycloak.md`](Documentation/02-keycloak.md) |
+| 3️⃣ Drupal 10 Deployment + SSO | [`03-drupal-keycloak.md`](Documentation/03-drupal-keycloak.md) |
+| 4️⃣ Django Deployment + SSO | [`04-django-keycloak.md`](Documentation/04-django-keycloak.md) |
+| 5️⃣ PHP App Deployment + SSO | [`05-php-keycloak.md`](Documentation/05-php-keycloak.md) |
+| 6️⃣ Screenshots & Proofs | [`06-screenshots.md`](Documentation/06-screenshots.md) |
 
 ***
 
@@ -89,7 +89,7 @@ This setup ensures **secure, seamless authentication** for users across all inte
 - Disabled root SSH, enabled `deploy` user with sudo  
 - Installed base stack: Apache, PHP, MariaDB, Python 3, Java 17, Composer  
 
-📄 Details → [`01-server-setup.md`](01-server-setup.md)
+📄 Details → [`01-server-setup.md`](Documentation/01-server-setup.md)
 
 ***
 
@@ -100,7 +100,7 @@ This setup ensures **secure, seamless authentication** for users across all inte
 - Backed by **MariaDB** (not H2)  
 - Strict redirect URIs & secured secrets  
 
-📄 Details → [`02-keycloak.md`](02-keycloak.md)
+📄 Details → [`02-keycloak.md`](Documentation/02-keycloak.md)
 
 ***
 
@@ -111,7 +111,7 @@ This setup ensures **secure, seamless authentication** for users across all inte
 - Integrated **Keycloak module**  
 - Verified login/logout & role mapping  
 
-📄 Guide → [`03-drupal-keycloak.md`](03-drupal-keycloak.md)
+📄 Guide → [`03-drupal-keycloak.md`](Documentation/03-drupal-keycloak.md)
 
 ***
 
