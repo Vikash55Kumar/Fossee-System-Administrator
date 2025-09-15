@@ -122,7 +122,7 @@ This setup ensures **secure, seamless authentication** for users across all inte
 - **Custom OIDC backend** (`KeycloakOIDCBackend`) for admin role mapping  
 - CSRF, trusted origins & static files configured  
 
-📄 Guide → [`04-django-keycloak.md`](04-django-keycloak.md)
+📄 Guide → [`04-django-keycloak.md`](Documentation/04-django-keycloak.md)
 
 ***
 
@@ -133,7 +133,7 @@ This setup ensures **secure, seamless authentication** for users across all inte
 - Apache vhost with login/callback/profile endpoints  
 - Validated SSO flow  
 
-📄 Guide → [`05-php-keycloak.md`](05-php-keycloak.md)
+📄 Guide → [`05-php-keycloak.md`](Documentation/05-php-keycloak.md)
 
 ***
 
@@ -146,7 +146,7 @@ Includes:
 - SSO flows across all 3 apps  
 - User role-based admin access  
 
-📄 Proofs → [`06-screenshots.md`](06-screenshots.md)
+📄 Proofs → [`06-screenshots.md`](Documentation/06-screenshots.md)
 
 ***
 
