@@ -26,6 +26,9 @@ This project integrates **Drupal 10**, **Django**, and a **custom PHP app** with
 
 _Evaluators can use above credentials to fully verify SSO flows and admin access restrictions._
 
+> **Note:**  
+> The testing usernames and passwords for all applications have been securely shared via email with the evaluation team to ensure confidentiality and controlled access.
+
 ***
 
 ## 📖 Overview
