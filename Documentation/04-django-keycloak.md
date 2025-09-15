@@ -115,7 +115,7 @@ AUTHENTICATION_BACKENDS = [
 INSTALLED_APPS += ['mozilla_django_oidc']
 
 OIDC_RP_CLIENT_ID = "django"
-OIDC_RP_CLIENT_SECRET = "<your_keycloak_client_secret>"
+OIDC_RP_CLIENT_SECRET = "<keycloak_client_secret>"
 
 OIDC_OP_AUTHORIZATION_ENDPOINT = "http://secureid.ecovix.online:8080/realms/Keycloak/protocol/openid-connect/auth"
 OIDC_OP_TOKEN_ENDPOINT = "http://secureid.ecovix.online:8080/realms/Keycloak/protocol/openid-connect/token"
@@ -191,3 +191,4 @@ This content is ready to be committed, giving a complete, clear, and secure depl
 
 [1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/63485613/0f786f01-f90a-4249-a788-9d03a7f014cf/s1.jpg)
 [2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/63485613/d051f305-e15e-476c-b4b4-2387f496dc95/s2.jpg)
+
