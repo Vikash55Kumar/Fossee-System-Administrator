@@ -117,10 +117,10 @@ INSTALLED_APPS += ['mozilla_django_oidc']
 OIDC_RP_CLIENT_ID = "django"
 OIDC_RP_CLIENT_SECRET = "<keycloak_client_secret>"
 
-OIDC_OP_AUTHORIZATION_ENDPOINT = "http://secureid.ecovix.online:8080/realms/Keycloak/protocol/openid-connect/auth"
-OIDC_OP_TOKEN_ENDPOINT = "http://secureid.ecovix.online:8080/realms/Keycloak/protocol/openid-connect/token"
-OIDC_OP_USER_ENDPOINT = "http://secureid.ecovix.online:8080/realms/Keycloak/protocol/openid-connect/userinfo"
-OIDC_OP_JWKS_ENDPOINT = "http://secureid.ecovix.online:8080/realms/Keycloak/protocol/openid-connect/certs"
+OIDC_OP_AUTHORIZATION_ENDPOINT = "https://secureid.ecovix.online/realms/Keycloak/protocol/openid-connect/auth"
+OIDC_OP_TOKEN_ENDPOINT = "https://secureid.ecovix.online/realms/Keycloak/protocol/openid-connect/token"
+OIDC_OP_USER_ENDPOINT = "https://secureid.ecovix.online/realms/Keycloak/protocol/openid-connect/userinfo"
+OIDC_OP_JWKS_ENDPOINT = "https://secureid.ecovix.online/realms/Keycloak/protocol/openid-connect/certs"
 
 OIDC_RP_SIGN_ALGO = "RS256"
 
@@ -190,6 +190,7 @@ Proceed to:
 [05-php-keycloak.md](./05-php-keycloak.md) — PHP Application Deployment & Keycloak SSO Integration
 
 ***
+
 
 
 
