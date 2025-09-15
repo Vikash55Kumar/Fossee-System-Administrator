@@ -143,5 +143,3 @@ Includes:
 ✔️ **Secure, production-ready** setup
 
 ***
-
-If you want, I can help draft a short readme note explaining the Keycloak admin panel domain restriction and guide for evaluators on using the testing credentials securely.
