@@ -1,7 +1,3 @@
-Here’s an **optimized version of your `01-server-setup.md`**, fully aligned with your README style, commands, and workflow, integrating your attached images for evaluator-ready proof:
-
-***
-
 # 1️⃣ Server & Security Setup
 
 This phase details launching, securing, and preparing your DigitalOcean droplet for a multi-app, SSO-driven environment.
@@ -111,3 +107,4 @@ mysql_secure_installation
 → [02-keycloak.md](./02-keycloak.md) — Keycloak SSO Server Installation & Realm/Client Configuration
 
 ***
+
