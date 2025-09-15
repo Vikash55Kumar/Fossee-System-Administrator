@@ -173,12 +173,15 @@ sudo systemctl enable --now gunicorn
 ## 📸 4.6 Screenshots
 
 - **SSO Login Prompt:**
-<img width="1064" height="632" alt="s1" src="https://github.com/user-attachments/assets/e8a4b9a1-271a-4c5c-b71d-66ef75dab3be" />
+<img width="1064" height="432" alt="s1" src="https://github.com/user-attachments/assets/e8a4b9a1-271a-4c5c-b71d-66ef75dab3be" />
 
 - **Django Admin Panel after SSO login:**  
 <img width="2880" height="838" alt="s2" src="https://github.com/user-attachments/assets/5068bb41-7877-45cc-9afa-b72914829199" />
 
-  
+
+- **Django Keycloak Configuration:**  
+<img width="2410" height="884" alt="django" src="https://github.com/user-attachments/assets/15e14071-0415-41b6-9fd4-99b7e23f03e8" />
+
 ***
 
 ## 🔜 Next Step
@@ -187,6 +190,7 @@ Proceed to:
 [05-php-keycloak.md](./05-php-keycloak.md) — PHP Application Deployment & Keycloak SSO Integration
 
 ***
+
 
 
 
