@@ -133,9 +133,21 @@ composer require drupal/keycloak
 - **Drupal welcome page:**
 <img width="2880" height="1412" alt="d1" src="https://github.com/user-attachments/assets/ff16b7fb-3b56-4fed-97e4-541be84f8248" />
 
-- **Keycloak-authenticated user profile ("vikash9006" view/edit):**  
-<img width="2600" height="1214" alt="d2" src="https://github.com/user-attachments/assets/d5e90b45-1e6f-44d9-8afb-4aed58057ce8" />
-<img width="1656" height="1486" alt="d3" src="https://github.com/user-attachments/assets/0bfe15c8-7aa9-4c9a-9cd7-eac5fb9fc4c6" />
+- **Keycloak-authenticated user profile ("vikash9006" view/edit):**
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d5e90b45-1e6f-44d9-8afb-4aed58057ce8" alt="d2" width="500"/></td>
+    <td><img src="https://github.com/user-attachments/assets/0bfe15c8-7aa9-4c9a-9cd7-eac5fb9fc4c6" alt="d3" width="500"/></td>
+  </tr>
+  <tr>
+    <td align="center">profile page</td>
+    <td align="center">Edit page</td>
+  </tr>
+</table>
+
+- **Drupal Keycloak Configuration:**
+<img width="2408" height="1294" alt="drupal" src="https://github.com/user-attachments/assets/7fa4dd32-d72d-4440-aa67-428bd11df026" />
+
 ***
 
 ## 🛡️ 3.8 Notes & Best Practices
@@ -153,4 +165,5 @@ Continue to:
 [04-django-keycloak.md](./04-django-keycloak.md) — Django Deployment & Keycloak SSO Integration
 
 ***
+
 
