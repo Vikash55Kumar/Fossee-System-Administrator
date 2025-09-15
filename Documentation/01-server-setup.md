@@ -107,23 +107,7 @@ mysql_secure_installation
 
 ***
 
-## 📸 Screenshots
-
-Below:  
-- DigitalOcean droplet provisioning and status  
-- SSH login as a sudo user with key (non-root)
-
-[1]
-[2]
-
-***
-
 **Next Step:**  
 → [02-keycloak.md](./02-keycloak.md) — Keycloak SSO Server Installation & Realm/Client Configuration
 
 ***
-
-You can further expand each section with exact timestamps, command outputs, or add more screenshots as needed for full reproducibility and visual proof.
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/63485613/ff69d85f-1c03-4536-8cba-ee12d304198e/s1.jpg)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/63485613/6c564b97-6c09-4230-ac4b-a3f032d36c3d/Screenshot_2025-09-15_12-47-37.jpg)
