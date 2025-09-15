@@ -5,10 +5,36 @@ This project integrates **Drupal 10**, **Django**, and a **custom PHP app** with
 
 ***
 
+## 🚀 Project Introduction
+
+Modern software ecosystems often suffer from the complexity and inconvenience of managing multiple user credentials for different applications. This project addresses this challenge by providing a **centralized Single Sign-On (SSO) system** that unifies user authentication across multiple independent applications.
+
+At its core, the project implements **Keycloak**, a robust open-source identity and access management solution, deployed securely on a stable **Rocky Linux 10** server. Keycloak acts as the single source of truth for user identities, allowing users to authenticate once and gain seamless access to all connected applications without repeated logins.
+
+This solution integrates three key applications:
+
+- **Drupal 10** — a popular content management system for building websites.  
+- **Django** — a powerful Python web framework for custom application development.  
+- **PHP Custom App** — a bespoke PHP-based web application.
+
+All three applications are configured as clients to the Keycloak SSO provider via **OpenID Connect (OIDC)**, enabling secure, standard-compliant authentication flows. This architecture improves user experience, enhances security by centralizing identity management, and simplifies administrative overhead.
+
+### Why This Project?
+
+- **Streamlined user experience:** Users authenticate once and access all apps effortlessly.  
+- **Centralized administration:** User roles, permissions, and sessions controlled in one place.  
+- **Industry standard protocols:** Uses OIDC for modern, secure authentication.  
+- **Extensible & Scalable:** New applications can easily be added as Keycloak clients.  
+- **Secure, production-ready:** Leveraging Rocky Linux security best practices and SSL encryption.
+
+This project serves as a practical foundation for organizations looking to implement a unified authentication strategy across diverse enterprise or web applications, ensuring both usability and robust security.
+
+***
+
 ## 🚀 Live Demo Links
 
 - 🔑 **Keycloak Admin:** [secureid.ecovix.online](https://secureid.ecovix.online)  
-  **Note:** Keycloak admin panel is accessible only with master username and password, **not** with testing account.
+  _Note: Keycloak admin panel is accessible only with master username and password, not with testing account._
 - 📰 **Drupal 10:** [drupal.ecovix.online](https://drupal.ecovix.online)  
 - 🐍 **Django App:** [django.ecovix.online](https://django.ecovix.online)  
 - 🐘 **PHP App:** [php.ecovix.online](https://php.ecovix.online)  
@@ -24,10 +50,7 @@ This project integrates **Drupal 10**, **Django**, and a **custom PHP app** with
 | Django          | vikash9006     | (shared securely)    | Admin user mapped via custom backend|
 | PHP App         | vikash9006     | (shared securely)    | SSO user matching Keycloak identity |
 
-_Evaluators can use above credentials to fully verify SSO flows and admin access restrictions._
-
-> **Note:**  
-> The testing usernames and passwords for all applications have been securely shared via email with the evaluation team to ensure confidentiality and controlled access.
+_Evaluators can use the above credentials for seamless access to Drupal, Django, and PHP applications via Keycloak SSO._
 
 ***
 
@@ -124,17 +147,6 @@ Includes:
 - User role-based admin access  
 
 📄 Proofs → [`06-screenshots.md`](06-screenshots.md)
-
-***
-
-## 📌 Submission Guide
-
-- 📁 **Repository**: This README + Markdown docs + Screenshots = Full documentation  
-- 🌍 **Live Test**: Login once, access all apps via Keycloak SSO  
-- 🔑 **Admin Rules**: Django/Drupal admin restricted by claims/email  
-- 🛠 **Reproducibility**: All commands & configs documented  
-
-⚡ **No video needed — the live system is the proof.**
 
 ***
 
