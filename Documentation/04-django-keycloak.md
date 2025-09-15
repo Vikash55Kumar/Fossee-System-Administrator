@@ -187,8 +187,4 @@ Proceed to:
 
 ***
 
-This content is ready to be committed, giving a complete, clear, and secure deployment guide aligned with your project standards.
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/63485613/0f786f01-f90a-4249-a788-9d03a7f014cf/s1.jpg)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/63485613/d051f305-e15e-476c-b4b4-2387f496dc95/s2.jpg)
 
